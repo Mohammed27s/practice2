@@ -1,0 +1,26 @@
+import java.util.stream.IntStream;
+class HelloWorld {
+    
+    public static void main(String[] args) {
+        
+        
+    int[] list_Nums = new int[] {4, 4, 10, 15, 20, 50};
+    
+    int Sum_Nums = IntStream.of(list_Nums).sum();
+    
+    int Mean = Sum_Nums/5;
+    
+   int Median = (list_Nums[2] + list_Nums[3])/2;
+   int mode =  findMode(list_Nums);
+  
+    
+    System.out.println("The Mean = "+Mean);
+    System.out.println("\n");
+    System.out.println("The Median = "+Median);
+    System.out.println("The mode = " +mode);
+    
+    
+        
+        
+    }
+}
