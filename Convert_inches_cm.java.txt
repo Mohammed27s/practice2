@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+       
+      int inch = 1;
+      double cm = 2.54;
+      
+      System.out.println("Welcome to Machine converter");
+      System.out.println("Enter your number you wish to convert");
+      
+      Scanner in = new Scanner(System.in);
+      
+      int user_input = in.nextInt();
+      
+      double contain = user_input * cm / inch;
+      
+      System.out.println("Your cm = " + contain);
+    }
+}
