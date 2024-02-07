@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+
+
+
+     System.out.println("**** volume calculator ****");
+     System.out.println("Enter the number");
+     Scanner n = new Scanner(System.in);
+     int cath = n.nextInt();
+
+     double b = 3.14159;
+     
+     double  volume = 4 / 3 * b * Math.pow(cath, 3);
+     
+     System.out.println("Your volume = "+ volume);
+     
+     
+     
+     
+     
+     
+     
+    }
+}
