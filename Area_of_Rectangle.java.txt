@@ -1,0 +1,13 @@
+class HelloWorld {
+    public static void main(String[] args) {
+       double Rectangle_area;
+       double width = 99.123;
+       double length = 32.453;
+       
+       Rectangle_area = width * length;
+       
+       System.out.println("The are of rectangle = "+ Rectangle_area);
+       
+       
+    }
+}
