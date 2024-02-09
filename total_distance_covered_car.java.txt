@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        System.out.println("find out the total distance covered by your car ");
+        
+        Scanner i = new Scanner(System.in);
+        
+        System.out.println("The avrage speed : ");
+        int Avg_Speed = i.nextInt();
+        
+        System.out.println("The time you traveled :");
+        double Time_trav = i.nextDouble();
+        
+        System.out.println("the total distance your car coverd : "+Time_trav + " Miles");
+        
+        
+        
+        
+
+        
+        
+        
+    }
+}
