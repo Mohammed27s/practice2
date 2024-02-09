@@ -1,0 +1,22 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        int Length = 5;
+        int width = 4;
+        int height = 3;
+        
+        double cost_perMeter = 25;
+        
+        int FrontbackWalls = Length * height;
+        int SideWalls = width * height;
+        
+        double total = SideWalls * FrontbackWalls;
+        
+        System.out.println("total cost of painting a room : $"+ total);
+        
+        
+        
+        
+        
+    }
+}
