@@ -1,0 +1,16 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        
+       System.out.println("Check your distance traveled by an object");
+        
+        float s;
+        int v = 10;
+        int a = 2;
+        float t = 5.5f; 
+        
+        s =  (v * t) + (1.0f / 2) * a * t * t; 
+        System.out.println(" The distance traveled by the object is "+ s);
+        
+        
+    }
+}
