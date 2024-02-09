@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        Scanner n = new Scanner(System.in);
+        
+        int second_number =  1000000;
+        
+        System.out.println("Enter the number of days : ");
+        double number_Days = n.nextDouble();
+        double number_cal_D =  second_number / 24;
+      
+        System.out.println("Enter number of weeks : ");
+        int number_Weeks = n.nextInt();
+        double number_cal_W = number_cal_D / 7;
+        
+        System.out.println("Enter number of years : ");
+        int number_Years = n.nextInt();
+        double number_cal_Y = number_cal_W / 365;
+        
+        System.out.println("So, 1,000,000 seconds is approximately equivalent to : "+ " Days : " + Math.round(number_cal_D) +  " Weeks : " +  Math.round(number_cal_W) + " Years : " +  Math.round(number_cal_Y) );
+        
+        
+        
+        
+       
+    }
+}
